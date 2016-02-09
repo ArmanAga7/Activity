@@ -1,0 +1,119 @@
+/* line 1, ../sass/carousel.scss */
+body {
+  background-size: cover;
+  background: url(../resources_02/bg-body.jpg);
+}
+
+/* line 6, ../sass/carousel.scss */
+h1 {
+  font-size: 40px;
+  color: white;
+  font-family: 'Lobster', sans-serif;
+  text-align: center;
+}
+/* line 12, ../sass/carousel.scss */
+h1 span {
+  font-size: 13px;
+  color: #B1CCC5;
+  font-family: 'Terminal Dosis', sans-serif;
+}
+
+/* line 19, ../sass/carousel.scss */
+.accordion {
+  background: white;
+  width: 990px;
+  height: 410px;
+  position: absolute;
+  margin-left: 11%;
+  overflow: hidden;
+  padding: 5px;
+}
+
+/* line 29, ../sass/carousel.scss */
+#nav {
+  background-color: blue;
+  height: 400px;
+  width: 320px;
+  float: left;
+  margin: 5px;
+}
+
+/* line 36, ../sass/carousel.scss */
+#section {
+  background-color: black;
+  height: 400px;
+  width: 650px;
+  margin: 5px;
+  float: left;
+}
+
+/* line 43, ../sass/carousel.scss */
+.primary_01 {
+  background: url(../resources_02/item5.jpg);
+}
+
+/* line 48, ../sass/carousel.scss */
+.primary_02 {
+  background: url(../resources_02/item1.jpg);
+}
+
+/* line 53, ../sass/carousel.scss */
+.primary_03 {
+  background: url(../resources_02/item2.jpg);
+}
+
+/* line 58, ../sass/carousel.scss */
+#leftArrow {
+  cursor: pointer;
+  cursor: hand;
+  float: left;
+  margin-left: 7.5%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: 2;
+}
+
+/* line 68, ../sass/carousel.scss */
+#rightArrow {
+  cursor: pointer;
+  cursor: hand;
+  float: right;
+  margin-left: 85%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: 2;
+}
+
+/* line 78, ../sass/carousel.scss */
+#section1 {
+  float: left;
+  margin-left: 140px;
+}
+
+/* line 84, ../sass/carousel.scss */
+#section2 {
+  float: right;
+  margin-right: 140px;
+}
+
+/* line 90, ../sass/carousel.scss */
+.sections {
+  width: 480px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 36%;
+  height: 90px;
+}
+/* line 98, ../sass/carousel.scss */
+.sections h2 {
+  color: white;
+  margin-top: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+}
+
+/* line 107, ../sass/carousel.scss */
+button {
+  float: right;
+}

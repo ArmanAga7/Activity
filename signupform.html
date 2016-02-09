@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(function ()
+{
+    $('.bodyDivision :first').before($('.bodyDivision .navsect:last'));       
+    $('#rightArrow img').click(function()
+    {
+        var item_width = $('.bodyDivision div.navsect').outerWidth() + 10;
+        var left_indent = parseInt($('.bodyDivision').css('left')) - item_width;
+        $('.bodyDivision:not(:animated)').animate({'left' : left_indent},500,function()
+        {
+            $('.bodyDivision .navsect:last').after($('.bodyDivision .navsect:first')); 
+            $('.bodyDivision').css({'left' : '-210px'});
+        }); 
+    });
+    
+    $('#leftArrow img').click(function()
+    {
+        var item_width = $('.bodyDivision .navsect').outerWidth() + 320;
+        var left_indent = parseInt($('.bodyDivision').css('left')) + item_width;
+        $('.bodyDivision:not(:animated)').animate({'left' : left_indent},500,function()
+        {         
+            $('.bodyDivision .navsect:first').before($('.bodyDivision .navsect:last')); 
+            $('.bodyDivision').css({'left' : '-210px'});
+        });    
+    });
+});
+</script>
+<script> 
+$(document).ready(function(){
+    $("#secondary_01").hide();
+    $("#primary_01").click(function(){
+        $("#secondary_01").animate({'width': 'toggle'}, 1000);
+    });
+        $("#secondary_02").hide();
+    $("#primary_02").click(function(){
+        $("#secondary_02").animate({'width': 'toggle'}, 1000);
+    });
+        $("#secondary_03").hide();
+    $("#primary_03").click(function(){
+        $("#secondary_03").animate({'width': 'toggle'}, 1000);
+    });
+        $("#secondary_04").hide();
+    $("#primary_04").click(function(){
+        $("#secondary_04").animate({'width': 'toggle'}, 1000);
+    });
+        $("#secondary_05").hide();
+    $("#primary_05").click(function(){
+        $("#secondary_05").animate({'width': 'toggle'}, 1000);
+    });    
+
+});
+</script>
+<style>
+body
+{
+    background-size: cover;
+    background: url(resources_02/bg-body.jpg);
+}
+.bodyDivision
+{
+    background:white;
+    overflow: hidden;
+    text-align:center;
+    padding:5px;
+    width: 1020px;
+    position: absolute;
+}
+.navsect
+{
+    height:auto;
+}
+.nav {
+    background-color:blue;
+    height:400px;
+    width:320px;
+    float:left;
+    padding: 5px;
+    margin: 5px;
+}
+.section {
+    background-color:red;
+    height:400px;
+    width:320px;
+    margin: 5px;
+    padding: 5px;
+    float:left;
+}
+#leftArrow
+{
+    cursor: pointer;
+    cursor: hand;
+    float:left;  
+    margin-left: 7.5%;
+    margin-top: 14%;
+    position: relative;
+    z-index: 2;
+}
+#rightArrow
+{
+    cursor: pointer;
+    cursor: hand;
+    float:right;  
+    margin-left: 85%;
+    margin-top:14%;
+    position: relative;
+    z-index: 2;
+}
+
+</style>
+</head>
+<body>
+        <div id='rightArrow'><img src='resources_02/arrows.png' /></div>
+    <div id='leftArrow'><img src='resources_02/arrows.png' /></div>
+<center>
+<div class="bodyDivision">
+
+    <div class="navsect">
+        <div class="nav" id="primary_01">
+        </div>
+        <div class="section" id="secondary_01">
+        </div>
+    </div>
+
+    <div class="navsect">
+        <div class="nav" id="primary_02">
+        </div>
+        <div class="section" id="secondary_02">
+        </div>
+    </div>
+
+    <div class="navsect">
+        <div class="nav" id="primary_03">
+        </div>
+        <div class="section" id="secondary_03">
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

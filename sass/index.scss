@@ -1,0 +1,256 @@
+$fontsize:        10px;
+$padding:         5px;
+$margin:          10px;
+$fontstack:       helvetica;
+$width:           100px;
+$height:          100px;
+/**HEADER**/
+body
+{
+  background: url(../images/bg.jpg);
+  background-size: cover;
+}
+#head
+{
+
+    background-color:black;
+    text-align:       center;
+
+    .company-logo
+    {
+        margin-left:  -10px;
+        height:       $height+(-30);
+    }
+
+    .companyname
+    {
+        font-size:    $fontsize + 35;
+        font-weight:  bold;
+        color:       white;
+        margin-left:  -30+(-$margin);
+    }
+    a
+{
+    text-decoration:  none;
+    color:            rgba(48,151,155,1);
+    text-align:       center;
+    padding-left:     $padding + 75;
+    font-family:      $fontstack;
+    font-weight:      bold;
+}
+}
+
+
+/**END OF HEADER**/
+
+/**CONTENT**/
+.content
+{
+  background:   rgba(0,0,0,.6); height:100%;
+
+  /**LEFT CONTENT**/
+  #left-content
+  {
+      line-height:      30px;
+      height:           auto;
+      margin-top:       40px;
+      width:            auto;
+      float:            left;
+      margin-left:      100px;
+
+        #imageslider
+        {
+        position: relative;
+        overflow: hidden;
+        height: 400px;
+        width: 620px;
+        float:left;
+        }
+      
+  }
+  /**END OF LEFT CONTENT**/
+
+  /**RIGHT CONTENT**/
+  #right-content
+  {
+      width:            350px;
+      float:            right;
+      margin-top:       35px;
+      padding:          10px;
+      margin-bottom:    40px;
+      margin-right:     87px;
+
+
+    #paragraph
+    {
+        background: rgba(48,151,155,.1);
+        font-size: 15px;
+        height:290px;
+        border-radius: 20px;
+    }
+        a
+{
+    text-decoration:  none;
+    color: rgba(48,151,155,1);
+
+}
+    .textstyle
+    {
+        border: 2px solid black;
+        box-shadow: 2px 2px 2px #888888;
+        font-family: $fontstack;
+        color:white;
+        font-size: 20px;
+        width: 250px;
+        float:left;
+        padding: 15px;
+        height: 10px;
+        margin-bottom:5px;
+        font-weight:bold;
+
+    }
+    input
+    {
+    width: 250;
+    height:50px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:bold;
+    }
+    .imgstyle
+    {
+        float:right;
+        margin-top: -6px;
+    }
+
+  }
+  /**END OF RIGHT CONTENT**/
+
+}
+
+
+/**FOOTER**/
+.footer
+{
+    background-color:black;
+    color:white;
+    height:auto;
+    width:100%;
+    clear:both;
+    font-size: 15px;
+    float:right;
+    
+    .image-icon
+    {
+        line-height:30px;
+        height:auto;
+        margin-top: 40px;
+        width:auto;
+        float:left;
+        margin-left: 80px;
+        padding:1px;    
+        
+    }
+
+    .info
+    {
+        width:auto;
+        font-family: $fontstack;
+        float:left;
+        margin-top: 30px;
+        padding:10px;
+        margin-bottom: 30px;
+           
+    }
+
+}
+/**END OF FOOTER**/
+
+
+
+
+/*slider*/
+a.previous_arrow, a.next_arrow {
+  position: absolute;
+  top: 30%;
+  z-index: 999;
+  display: block;
+  padding: 2%;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.previous_arrow:hover, a.next_arrow:hover {
+
+  -webkit-transition: all 0.2s ease;
+}
+
+a.previous_arrow {
+  border-radius: 0 2px 2px 0;
+}
+
+a.next_arrow {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+#imageslider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+  float:left;
+}
+#imageslider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 300px;
+  height: 327px;
+}
+
+
+
+.ppbutton
+{
+  margin-left: 113px;
+    position: absolute;
+  top: 60%;
+  left: 45%;
+  z-index: 999;
+  display: block;
+  padding: 2%;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+#numPag
+{
+    margin-left: 113px;
+    position: absolute;
+  top: 57%;
+  left: 50%;
+  z-index: 999;
+  display: block;
+  padding: 2%;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-weight: 600;
+font-size: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+}

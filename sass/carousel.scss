@@ -1,0 +1,110 @@
+body
+{
+	background-size: cover;
+	background: url(../resources_02/bg-body.jpg);
+}
+h1
+{
+	font-size: 40px;
+	color:white;
+	font-family: 'Lobster', sans-serif;
+	text-align: center;
+	span
+	{
+		font-size: 13px;
+		color: #B1CCC5;
+		font-family: 'Terminal Dosis', sans-serif;
+	}
+}
+.accordion
+{
+	background: white;
+	width: 990px;
+	height: 410px;
+	position: absolute;
+	margin-left:11%;
+	overflow: hidden;
+	padding: 5px;
+}
+#nav {
+    background-color:blue;
+    height:400px;
+    width:320px;
+    float:left;
+    margin: 5px;
+}
+#section {
+    background-color:black;
+    height:400px;
+    width:325px*2;
+    margin: 5px;
+    float:left;
+}
+.primary_01
+{
+	background: url(../resources_02/item5.jpg);
+}
+
+.primary_02
+{
+	background: url(../resources_02/item1.jpg);
+}
+
+.primary_03
+{
+	background: url(../resources_02/item2.jpg);
+}
+
+#leftArrow
+{
+	cursor: pointer;
+	cursor: hand;
+	float:left;  
+	margin-left: 7.5%;
+	margin-top: 14%;
+	position: absolute;
+	z-index: 2;
+}
+#rightArrow
+{
+	cursor: pointer;
+	cursor: hand;
+	float:right;  
+	margin-left: 85%;
+	margin-top:14%;
+	position: absolute;
+	z-index: 2;
+}
+#section1
+{
+    float:left;
+	margin-left: 140px;
+}
+
+#section2
+{
+    float:right;
+	margin-right: 140px;
+}
+
+.sections
+{
+    width:480px;
+	border-radius: 10px;
+	background:rgba(0,0,0,.5);
+	text-align: center;
+	margin-top: 36%;
+	height:90px;
+	h2
+	{
+		color: white;
+		margin-top: 30px;
+	    font-family: 'Yanone Kaffeesatz', sans-serif;
+	    font-size: 20px;
+
+	}
+}
+button
+{
+	float:right;
+}

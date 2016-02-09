@@ -1,0 +1,36 @@
+/* line 1, ../sass/signupform.scss */
+body {
+  background: url(../images/bg.jpg);
+  background-size: cover;
+}
+
+/* line 7, ../sass/signupform.scss */
+.logo {
+  width: 200px;
+  height: 50px;
+}
+
+/* line 12, ../sass/signupform.scss */
+h1 {
+  font-family: helvetica;
+  color: white;
+}
+
+/* line 18, ../sass/signupform.scss */
+div {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+}
+/* line 23, ../sass/signupform.scss */
+div .header {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+/* line 29, ../sass/signupform.scss */
+div .txtField {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+}

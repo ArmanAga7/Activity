@@ -1,0 +1,123 @@
+/* line 1, ../sass/exercises02_02.scss */
+body {
+  background-size: cover;
+  background: url(../resources_02/bg-body.jpg);
+}
+
+/* line 6, ../sass/exercises02_02.scss */
+.bodyCar {
+  width: 1020px;
+  height: 420px;
+  margin-left: 10%;
+  overflow: hidden;
+  background: white;
+}
+
+/* line 14, ../sass/exercises02_02.scss */
+.accordion {
+  width: auto;
+  height: auto;
+  background: white;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 22, ../sass/exercises02_02.scss */
+.primedary {
+  width: auto;
+  margin: 5px;
+  height: auto;
+  padding: 2px;
+  float: left;
+  background: green;
+}
+
+/* line 31, ../sass/exercises02_02.scss */
+.primary {
+  width: 320px;
+  height: 400px;
+  margin: 2px;
+  background: white;
+  float: left;
+}
+
+/* line 39, ../sass/exercises02_02.scss */
+.secondary {
+  height: 400px;
+  width: 674px;
+  float: left;
+  margin: 2px;
+  background: white;
+}
+
+/* line 47, ../sass/exercises02_02.scss */
+#divimg_01 {
+  background: url(../resources_02/item5.jpg);
+}
+
+/* line 52, ../sass/exercises02_02.scss */
+#divimg_02 {
+  background: url(../resources_02/item1.jpg);
+}
+
+/* line 57, ../sass/exercises02_02.scss */
+#divimg_03 {
+  background: url(../resources_02/item2.jpg);
+}
+
+/* line 62, ../sass/exercises02_02.scss */
+#divimg_04 {
+  background: url(../resources_02/item3.jpg);
+}
+
+/* line 67, ../sass/exercises02_02.scss */
+#divimg_05 {
+  background: url(../resources_02/item4.jpg);
+}
+
+/* line 72, ../sass/exercises02_02.scss */
+#secondary_01 {
+  background: red;
+}
+
+/* line 77, ../sass/exercises02_02.scss */
+#secondary_02 {
+  background: blue;
+}
+
+/* line 82, ../sass/exercises02_02.scss */
+#secondary_03 {
+  background: green;
+}
+
+/* line 87, ../sass/exercises02_02.scss */
+#secondary_04 {
+  background: purple;
+}
+
+/* line 92, ../sass/exercises02_02.scss */
+#secondary_05 {
+  background: orange;
+}
+
+/* line 97, ../sass/exercises02_02.scss */
+#leftArrow {
+  cursor: pointer;
+  cursor: hand;
+  float: left;
+  margin-left: 7.5%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: -2;
+}
+
+/* line 107, ../sass/exercises02_02.scss */
+#rightArrow {
+  cursor: pointer;
+  cursor: hand;
+  float: right;
+  margin-left: 85.5%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: -2;
+}

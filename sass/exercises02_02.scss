@@ -1,0 +1,116 @@
+body
+{
+    background-size: cover;
+    background: url(../resources_02/bg-body.jpg);
+}
+.bodyCar
+{
+    width: 1020px;
+    height: 420px;
+    margin-left: 10%;
+    overflow: hidden;
+    background:white;
+}
+.accordion
+{
+    width: auto;
+    height: auto;   
+    background:white;
+    float: left;
+    overflow:hidden; 
+}
+.primedary
+{
+     width: auto;
+     margin:5px;
+    height: auto;
+    padding: 2px;
+    float:left;
+    background:green;  
+}
+.primary
+{
+    width: 320px;
+    height: 400px;
+    margin:2px;
+    background:white;     
+    float:left;
+}
+.secondary
+{
+        height:400px;
+        width:337px*2;
+        float:left;
+        margin:2px; 
+        background:white;
+}
+#divimg_01
+{
+    background: url(../resources_02/item5.jpg);
+}
+
+#divimg_02
+{
+    background: url(../resources_02/item1.jpg);
+}
+
+#divimg_03
+{
+    background: url(../resources_02/item2.jpg);
+}
+
+#divimg_04
+{
+    background: url(../resources_02/item3.jpg);
+}
+
+#divimg_05
+{
+    background: url(../resources_02/item4.jpg);
+
+}
+#secondary_01
+{
+    background:red;
+}
+
+#secondary_02
+{
+    background:blue;
+}
+
+#secondary_03
+{
+    background:green;
+}
+
+#secondary_04
+{
+    background:purple;
+}
+
+#secondary_05
+{
+    background:orange;
+
+}
+#leftArrow
+{
+    cursor: pointer;
+    cursor: hand;
+    float:left;  
+    margin-left: 7.5%;
+    margin-top: 14%;
+    position: absolute;
+    z-index: -2;
+}
+#rightArrow
+{
+    cursor: pointer;
+    cursor: hand;
+    float:right;  
+    margin-left: 85.5%;
+    margin-top:14%;
+    position: absolute;
+    z-index: -2;
+}

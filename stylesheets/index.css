@@ -1,0 +1,233 @@
+/**HEADER**/
+/* line 8, ../sass/index.scss */
+body {
+  background: url(../images/bg.jpg);
+  background-size: cover;
+}
+
+/* line 13, ../sass/index.scss */
+#head {
+  background-color: black;
+  text-align: center;
+}
+/* line 19, ../sass/index.scss */
+#head .company-logo {
+  margin-left: -10px;
+  height: 70px;
+}
+/* line 25, ../sass/index.scss */
+#head .companyname {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  margin-left: -40px;
+}
+/* line 32, ../sass/index.scss */
+#head a {
+  text-decoration: none;
+  color: #30979b;
+  text-align: center;
+  padding-left: 80px;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+/**END OF HEADER**/
+/**CONTENT**/
+/* line 47, ../sass/index.scss */
+.content {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  /**LEFT CONTENT**/
+  /**END OF LEFT CONTENT**/
+  /**RIGHT CONTENT**/
+  /**END OF RIGHT CONTENT**/
+}
+/* line 52, ../sass/index.scss */
+.content #left-content {
+  line-height: 30px;
+  height: auto;
+  margin-top: 40px;
+  width: auto;
+  float: left;
+  margin-left: 100px;
+}
+/* line 61, ../sass/index.scss */
+.content #left-content #imageslider {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  width: 620px;
+  float: left;
+}
+/* line 74, ../sass/index.scss */
+.content #right-content {
+  width: 350px;
+  float: right;
+  margin-top: 35px;
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-right: 87px;
+}
+/* line 84, ../sass/index.scss */
+.content #right-content #paragraph {
+  background: rgba(48, 151, 155, 0.1);
+  font-size: 15px;
+  height: 290px;
+  border-radius: 20px;
+}
+/* line 91, ../sass/index.scss */
+.content #right-content a {
+  text-decoration: none;
+  color: #30979b;
+}
+/* line 97, ../sass/index.scss */
+.content #right-content .textstyle {
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px #888888;
+  font-family: helvetica;
+  color: white;
+  font-size: 20px;
+  width: 250px;
+  float: left;
+  padding: 15px;
+  height: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/* line 112, ../sass/index.scss */
+.content #right-content input {
+  width: 250;
+  height: 50px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 121, ../sass/index.scss */
+.content #right-content .imgstyle {
+  float: right;
+  margin-top: -6px;
+}
+
+/**FOOTER**/
+/* line 134, ../sass/index.scss */
+.footer {
+  background-color: black;
+  color: white;
+  height: auto;
+  width: 100%;
+  clear: both;
+  font-size: 15px;
+  float: right;
+}
+/* line 144, ../sass/index.scss */
+.footer .image-icon {
+  line-height: 30px;
+  height: auto;
+  margin-top: 40px;
+  width: auto;
+  float: left;
+  margin-left: 80px;
+  padding: 1px;
+}
+/* line 156, ../sass/index.scss */
+.footer .info {
+  width: auto;
+  font-family: helvetica;
+  float: left;
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+/**END OF FOOTER**/
+/*slider*/
+/* line 174, ../sass/index.scss */
+a.previous_arrow, a.next_arrow {
+  position: absolute;
+  top: 30%;
+  z-index: 999;
+  display: block;
+  padding: 2%;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* line 188, ../sass/index.scss */
+a.previous_arrow:hover, a.next_arrow:hover {
+  -webkit-transition: all 0.2s ease;
+}
+
+/* line 193, ../sass/index.scss */
+a.previous_arrow {
+  border-radius: 0 2px 2px 0;
+}
+
+/* line 197, ../sass/index.scss */
+a.next_arrow {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+/* line 202, ../sass/index.scss */
+#imageslider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+  float: left;
+}
+
+/* line 210, ../sass/index.scss */
+#imageslider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 300px;
+  height: 327px;
+}
+
+/* line 223, ../sass/index.scss */
+.ppbutton {
+  margin-left: 113px;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  z-index: 999;
+  display: block;
+  padding: 2%;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* line 240, ../sass/index.scss */
+#numPag {
+  margin-left: 113px;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  z-index: 999;
+  display: block;
+  padding: 2%;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+}
